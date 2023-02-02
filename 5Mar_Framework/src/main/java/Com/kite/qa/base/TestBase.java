@@ -42,7 +42,7 @@ public class TestBase {
 	public static void initialization() {
 		
 		ChromeOptions option =new ChromeOptions();
-		option.addArguments("--disable-notifications");
+		option.addArguments("--disable-not displyed");
 		
 	    System.setProperty("webdriver.chrome.driver", "C:\\Installer\\chromedriver.exe");
 		
